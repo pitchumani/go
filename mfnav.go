@@ -17,7 +17,7 @@ func getLatestNAV() {
 		if err != nil {
 			panic(err)
 		}
-		fmt.Println("Response type: %T\n", res)
+		//fmt.Println("Response type: %T\n", res)
 		defer res.Body.Close()
 		bytes, err := io.ReadAll(res.Body)
 		if err != nil {
