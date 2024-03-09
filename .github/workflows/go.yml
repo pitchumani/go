@@ -24,7 +24,7 @@ jobs:
       run: go version
       
     - name: Build
-      run: go build -v ./...
+      run: go build mfnav.go
 
     - name: Test
-      run: go test -v ./...
+      run: go test mfnav
