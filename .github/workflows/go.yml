@@ -28,6 +28,6 @@ jobs:
     - name: Build
       run: go build ./...
     - name: Run
-      run: go run ./mfnav
+      run: go run mfnav.go
     - name: Test
       run: go test ./...
